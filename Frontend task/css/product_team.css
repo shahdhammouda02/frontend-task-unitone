@@ -1,0 +1,31 @@
+.sec3 .container{
+    padding-top: 10rem;
+}
+.sec3 .container .row .about-text{
+    margin-top: 7rem;
+}
+.sec3 .container .row .about-text .wrapper .svg_span{
+    color: #722ED1;
+    background-color: #F7F1FF;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sec3 .container .row .about-text .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .sec3 .container .row{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec3 .container .wrapper{
+        justify-content: center;
+    }
+}

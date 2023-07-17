@@ -1,0 +1,129 @@
+header{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+header .header_overlay{
+    position: absolute;
+    height: 100%;
+    background-image:  linear-gradient(180deg, #FFF 0%, #E2F1FF 100%);
+    width: 110%;
+    top: -5%;
+    left: -5%;
+    transform: rotate(-2deg);
+    z-index: -1;
+}
+
+header .container .navbar{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+    padding-top: 1.5rem;
+}
+
+.navbar-collapse{
+   justify-content: flex-end;
+}
+
+.navbar-collapse ul li a{
+   font-size: 18px;
+   margin-left: 2rem;
+   color: #000;
+}
+.navbar .btn1{
+    color: #722ED1;
+    background-color: #fff;
+    border: solid 2px #722ED1;
+    border-radius: 25px;
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 2rem;
+}
+.navbar .btn1:hover{
+color: #fff;
+background-color: #722ED1;
+}
+header .container .row{
+    padding-top: 10rem;
+}
+
+
+header .container .row .about-text .start{
+    color: #fff;
+    background-color: #722ED1;
+    padding: 8px 24px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    margin-top: 14px;
+}
+header .container .row .about-text .start:hover{
+    color: #722ED1;
+    background-color: #fff;
+}
+header .container .row .about-text .learn{
+    color: #722ED1;
+    background-color: #fff;
+    padding: 8px 24px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    margin-top: 14px;
+}
+header .container .row .about-text .learn:hover{
+    color: #fff;
+    background-color: #722ED1;
+}
+header .container .row .about-text .learn:hover{
+    color: #fff;
+    background-color: #722ED1;
+}
+header .container .row .wrapper .svg_span{
+    color: #722ED1;
+    background-color: #F7F1FF;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.svg_span a{
+    color: #722ED1;
+}
+header .container .row .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    header .container .row{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    header .container .wrapper{
+        justify-content: center;
+    }
+    header .container .row{
+        padding-top: 1rem;
+    }
+    .navbar-collapse ul li{
+        background-color: #FFF;
+       padding-bottom: 10px;
+       padding-top: 10px;
+       margin-top: 5px;
+       width: 35%;
+       border-radius: 25px;
+    }
+    .navbar-collapse ul li a{
+        font-size: 22px;
+    }
+}

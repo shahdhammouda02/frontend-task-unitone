@@ -1,0 +1,59 @@
+footer{
+    margin-top: 10rem;
+    background-color: #FBFCFF;
+}
+footer .container{
+    padding-top: 5rem;
+}
+footer .container .row input{
+    box-shadow: 5px 5px 5px 5px rgb(250, 250, 250);
+    border: none;
+    padding: 10px;
+   background-color: #fff;
+}
+footer .container .row h6{
+    margin-bottom: 1.5rem;
+    color: #160637;
+    font-size: 21px;
+}
+
+footer .container .news{
+    position: relative;
+    width: 220px;
+}
+footer .container .news input{
+    padding-left: 24px;
+    width: 190px;
+}
+footer .container .news svg{
+    position: absolute;
+    pointer-events: painted;
+    top: 1rem;
+    right: 2.2rem;
+    
+}
+
+@media (max-width:768px){
+    footer .container .row{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    footer .container .row h6{
+        padding-top: 3rem;
+        font-size: 30px;
+        
+    }
+    footer .container .row p{
+        font-weight: 600;
+        font-size: 21px;
+    }
+    footer .container .row .p1 br{
+        display: none;
+    }
+    footer .container .row .news{
+        margin: auto;
+    }
+
+  
+}

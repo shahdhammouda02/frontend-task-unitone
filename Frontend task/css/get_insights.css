@@ -1,0 +1,20 @@
+.sec2 .container{
+    margin-top: 10rem;
+}
+
+.sec2 .container .text .wrapper .svg_span{
+    color: #722ED1;
+    background-color: #F7F1FF;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.sec2 .container .text .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

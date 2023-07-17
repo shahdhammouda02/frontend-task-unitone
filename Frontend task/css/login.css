@@ -1,0 +1,74 @@
+.sec6{
+    margin-top: 11rem;
+}
+
+ .sec6 .container .row .trustby{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec6 .container .row .trustby span{
+    background-color: #fff;
+    padding: 0 15px;
+    color: #8989A2;
+}
+ .sec6 .container .row .trustby::after{
+    content: "";
+    width: 100%;
+    border-top: 1px solid #D6D6D6;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index:-1 ;
+}
+.column{
+    justify-content: center;
+    align-items: center;
+}
+.sec6 .container .row form .b .btn{
+    color: #fff;
+    background-color: #722ED1;
+   
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.sec6 .container .row form input{
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sec6 .container .row form input::placeholder{
+    color: #8989A2;
+}
+
+.sec6 .container .row .wrapper{
+    background-color: #F9F0FF;
+    padding: 0 30px;
+}
+.login_form{
+    background: #fff;
+    transform: translateY(-10%);    
+    box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.12);
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+@media (max-width:768px){
+    .sec6 .container .row .group{
+        text-align: center;
+        justify-content: center;
+    }
+    .sec6 .container .row h2{
+        text-align: center;
+    }
+    .wrapper{
+        margin-top: 5rem;
+    }
+}
