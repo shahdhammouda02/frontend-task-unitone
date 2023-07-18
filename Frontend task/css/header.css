@@ -51,7 +51,7 @@ color: #fff;
 background-color: #722ED1;
 }
 header .container .row{
-    padding-top: 10rem;
+    padding-top: 13rem;
 }
 
 
@@ -103,6 +103,19 @@ header .container .row .wrapper{
     align-items: center;
 }
 
+#navbar{
+    background-color: #f6f5f9;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+  }
+  #navbar .sticky{
+    padding: 10px 0;
+    background-color: #000;
+  }
+
 @media (max-width:768px){
     header .container .row{
         text-align: center;
@@ -126,4 +139,9 @@ header .container .row .wrapper{
     .navbar-collapse ul li a{
         font-size: 22px;
     }
+.swiper-button-prev,
+    .swiper-button-next{
+        display: none;
+    }
+
 }
