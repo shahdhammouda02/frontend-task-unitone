@@ -32,21 +32,10 @@
 .sec5 .container h5{
     padding-bottom: 1rem;
 }
-.sec5 .container .logos svg{
-    margin-top: 1rem;
-    cursor: pointer;   
-}
-.logos svg{
-  margin-left: 2rem;
-}
+
 @media (max-width:768px){
     .sec5 .container h2{
         font-size: 27px;
     }
- .sec5 .container .logos{
-      display: flex;
-    }
-    .sec5 .logos svg{
-      margin-left: 1rem;
-    }
+ 
 }
