@@ -1,0 +1,43 @@
+.sec2 .container {
+  margin-top: 10rem;
+}
+.sec2 .container .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .container .wrapper .svg_span {
+  color: #722ED1;
+  background-color: #F7F1FF;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .navbar .btn1 {
+  border: solid 2px #722ED1;
+  border-radius: 25px;
+  padding: 8px 24px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 2rem;
+  background-color: #fff;
+  color: #722ED1;
+}
+header .navbar .btn1:hover {
+  background-color: #722ED1;
+  color: #fff;
+}
+
+.sec6 .container .row form input, .sec6 .container .row form .b .btn {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.sec6 .container .row form .b .btn {
+  color: #fff;
+  background-color: #722ED1;
+}/*# sourceMappingURL=main.css.map */

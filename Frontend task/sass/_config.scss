@@ -1,0 +1,63 @@
+$base-color: #722ED1;
+$bg-color: #F7F1FF;
+$btn-bg: #fff;
+
+// Qubly
+.sec2 .container{
+    margin-top: 10rem;
+
+
+.wrapper{
+
+.svg_span{
+    color: $base-color;
+    background-color: $bg-color ;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+// mixin for navbar button
+header .navbar{
+    .btn1{
+        @mixin btn($btn-bg){
+            background-color: $btn-bg;
+            color: $base-color;
+            &:hover{
+                background-color: $base-color;
+                color: $btn-bg;
+            }
+        }
+        border: solid 2px $base-color;
+        border-radius: 25px;
+        padding: 8px 24px;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 2rem;
+        @include btn($btn-bg)
+    }
+   
+}
+
+// login
+.sec6 .container .row form{ 
+    input{
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+    .b .btn{
+        @extend input;
+        color: $btn-bg;
+         background-color: $base-color;
+    }
+}
