@@ -1,0 +1,36 @@
+@import url("../fonts/metropolis");
+@import url("header.css");
+@import url("get_insights.css");
+@import url("product_team.css");
+@import url("eng_team.css");
+@import url("pricing_rtl.css");
+@import url("login.css");
+@import url("footer_rtl.css");
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/metropolis/Metropolis-Medium.otf') format('woff2'),
+        url('../fonts/metropolis/Metropolis-Bold.otf') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #fff;
+    font-family: 'Metropolis';
+    /* src: url('../fonts/metropolis/Metropolis-Medium.otf') format('woff2'),
+        url('../fonts/metropolis/Metropolis-MediumItalic.otf') format('woff'); */
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    direction: rtl;
+
+}
+
