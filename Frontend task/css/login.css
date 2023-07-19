@@ -28,6 +28,8 @@
     justify-content: center;
     align-items: center;
 }
+
+/*
 .sec6 .container .row form .b .btn{
     color: #fff;
     background-color: #722ED1;
@@ -41,6 +43,8 @@
     padding-top: 12px;
     padding-bottom: 12px;
 }
+*/
+
 
 .sec6 .container .row form input::placeholder{
     color: #8989A2;
