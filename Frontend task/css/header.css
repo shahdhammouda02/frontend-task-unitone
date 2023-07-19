@@ -36,6 +36,8 @@ header .container .navbar{
    margin-left: 2rem;
    color: #000;
 }
+
+/*
 .navbar .btn1{
     color: #722ED1;
     background-color: #fff;
@@ -50,6 +52,8 @@ header .container .navbar{
 color: #fff;
 background-color: #722ED1;
 }
+*/
+
 header .container .row{
     padding-top: 13rem;
 }
